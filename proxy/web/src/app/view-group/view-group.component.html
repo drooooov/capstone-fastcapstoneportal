@@ -1,0 +1,41 @@
+
+
+<div class="flex-container ">
+
+  <div class="row" *ngIf="curr_group != null" >
+
+
+    <div class="a col s12 m6 l6">
+      <div class="col s12 m8 l8">
+
+        <div class="card">
+          <div class="card-image">
+            <img src="../../assets/images/team.jpg">
+            <a (click)="cancel()"  class="btn-floating halfway-fab waves-effect waves-light red accent-4 white-text">
+              <i class="material-icons">clear</i></a>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">{{curr_group.name}}</h3>
+              <p>{{curr_group.description}}</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class=" col s12 m6 l6">
+        <div class="col s12 m10 l10">
+          <div class="collection with-header">
+            <a class="collection-item">
+              <h4>Members</h4>
+            </a>
+            <a class="collection-item" *ngFor="let member of membersList">
+              <span *ngIf="member.id==curr_group.groupAdmin" class=" new badge" data-badge-caption="">Project Manager</span>
+              {{member.firstName}}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

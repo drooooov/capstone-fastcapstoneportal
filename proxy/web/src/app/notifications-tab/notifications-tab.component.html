@@ -1,0 +1,6 @@
+
+<div class="collection" *ngIf="display">
+  <a class="collection-item" *ngFor="let notification of notifications"
+  (click)='changeNotification(notification)'> {{notification.title}} </a>
+
+</div>

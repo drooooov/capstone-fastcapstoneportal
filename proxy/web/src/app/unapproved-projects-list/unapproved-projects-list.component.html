@@ -1,0 +1,11 @@
+<div class="scrollable">
+  <div class="card-panel blue-grey item-obj lighten-4" *ngFor='let project of projectList'>
+    <div class="row item">
+      <div class="col s9 m9 l9 name-display">{{project.projectName}}</div>
+
+      <div class="col s3 m3 l2 ">
+        <button class="btn white-accent-3 white-text " (click)="selectProject(project)" >View</button>
+      </div>
+
+    </div>
+  </div>

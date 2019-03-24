@@ -1,0 +1,22 @@
+[{
+ "NotifTitle" : "Invite",
+ "NotifType" : 0,
+ "NotifDescription" : "Invite a Student"
+ },
+ {
+ "NotifTitle" : "Request",
+ "NotifType" : 1,
+ "NotifDescription" : "Request to be a member"
+ },
+ {
+ "NotifTitle" : "Accept",
+ "NotifType" : 2,
+ "NotifDescription" : "Accept Request/Invite"
+ },
+ {
+ "NotifTitle" : "Reject",
+ "NotifType" : 3,
+ "NotifDescription" : "Reject Request/Invite"
+ }
+]
+ 

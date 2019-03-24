@@ -1,0 +1,32 @@
+<div class="container-fluid background-div">
+
+  <table class="responsive-table">
+    <thead>
+      <tr>
+      <th scope="col">S.No.</th>
+      <th scope="col">Name</th>
+      <th scope="col">Sponser</th>
+      <th scope="col">Difficulty</th>
+      <th scope="col">IP Type</th>
+      <th></th><th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let project of projectList; let i=index">
+      <td>{{i+1}}</td>
+      <th scope="row">{{project.projectName}}</th>
+      <td>{{project.clientName}}</td>
+      <td>{{project.difficulty}}</td>
+      <td>{{project.ipTypeLiteral}}</td>
+      <td>
+
+        <button class="default default-btn" (click)="addProjectToPreference(project)" ><span><i class="material-icons">add</i></span></button>
+        <!-- <button class="default default-btn" ><span><i class="material-icons">check_circle</i></span></button> -->
+      </td>
+      <td>
+        <button class="default default-btn" (click)="viewProject(project)"  ><span><i class="material-icons">visibility</i></span></button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>

@@ -1,0 +1,121 @@
+[{
+    "id": "991473424",
+    "name": "Chico Dobrowolski",
+    "isGroupAdmin": false,
+    "groupId": null,
+    "programName": "Computer Systems Technology – Systems Analyst"
+  }, {
+    "id": "991451439",
+    "name": "Loella Beedon",
+    "isGroupAdmin": false,
+    "groupId": "110008",
+    "programName": "Computer Systems Technology – Systems Analyst"
+  }, {
+    "id": "991402848",
+    "name": "Sonja Huard",
+    "isGroupAdmin": false,
+    "groupId": null,
+    "programName": "Computer Systems Technology – Systems Analyst"
+  }, {
+    "id": "991488623",
+    "name": "Opaline Mara",
+    "isGroupAdmin": false,
+    "groupId": "110146",
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991442698",
+    "name": "Heda Lebbern",
+    "isGroupAdmin": false,
+    "groupId": null,
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991404115",
+    "name": "Allx Anlay",
+    "isGroupAdmin": true,
+    "groupId": null,
+    "programName": "Computer Systems Technology – Software Development and Network Engineering"
+  }, {
+    "id": "991437990",
+    "name": "Hymie Pantry",
+    "isGroupAdmin": false,
+    "groupId": null,
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991459502",
+    "name": "Tanitansy Natte",
+    "isGroupAdmin": false,
+    "groupId": null,
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991443976",
+    "name": "Niven Anger",
+    "isGroupAdmin": true,
+    "groupId": "110008",
+    "programName": "Computer Systems Technology – Systems Analyst"
+  }, {
+    "id": "991437060",
+    "name": "Sydel Mertsching",
+    "isGroupAdmin": false,
+    "groupId": "110366",
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991487493",
+    "name": "Evelina Noddle",
+    "isGroupAdmin": true,
+    "groupId": "110366",
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991440940",
+    "name": "Beatriz Aldine",
+    "isGroupAdmin": false,
+    "groupId": null,
+    "programName": "Computer Systems Technology – Systems Analyst"
+  }, {
+    "id": "991424219",
+    "name": "Venus Dargue",
+    "isGroupAdmin": true,
+    "groupId": "110267",
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991482457",
+    "name": "Horatia Deporte",
+    "isGroupAdmin": true,
+    "groupId": "110795",
+    "programName": "Computer Systems Technology – Systems Analyst"
+  }, {
+    "id": "991487996",
+    "name": "Marti Birkenhead",
+    "isGroupAdmin": false,
+    "groupId": null,
+    "programName": "Computer Systems Technology – Software Development and Network Engineering"
+  }, {
+    "id": "991499065",
+    "name": "Kathie Knappett",
+    "isGroupAdmin": false,
+    "groupId": "110795",
+    "programName": "Computer Systems Technology – Software Development and Network Engineering"
+  }, {
+    "id": "991490312",
+    "name": "Garrick Cassar",
+    "isGroupAdmin": false,
+    "groupId": "110795",
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991477225",
+    "name": "Carroll Ledekker",
+    "isGroupAdmin": true,
+    "groupId": "110146",
+    "programName": "Computer Engineering Technician/Technology"
+  }, {
+    "id": "991474078",
+    "name": "Lanna Baise",
+    "isGroupAdmin": true,
+    "groupId": "110821",
+    "programName": "Computer Systems Technology – Systems Analyst"
+  }, {
+    "id": "991487236",
+    "name": "Celle Cattow",
+    "isGroupAdmin": false,
+    "groupId": "110795",
+    "programName": "Computer Engineering Technician/Technology"
+  }]

@@ -1,0 +1,110 @@
+[
+  {
+    "notificationId": "21183",
+    "isNew": false,
+    "senderId": "991443976",
+    "recieverId": "991487996",
+    "groupId": "110008",
+    "dateTime": "2015-12-06T01:52:49 +05:00",
+    "NotifType": 0
+  },
+  {
+    "notificationId": "21199",
+    "isNew": true,
+    "senderId": "991443976",
+    "recieverId": "991440940",
+    "groupId": "110008",
+    "dateTime": "2015-07-11T12:33:52 +04:00",
+    "NotifType": 2
+  },
+  {
+    "notificationId": "22011",
+    "isNew": false,
+    "senderId": "991487493",
+    "recieverId": "991459502",
+    "groupId": "110366",
+    "dateTime": "2014-04-02T12:09:29 +04:00",
+    "NotifType": 1
+  },
+  {
+    "notificationId": "22013",
+    "isNew": false,
+    "senderId": "991482457",
+    "recieverId": "991487236",
+    "groupId": "110795",
+    "dateTime": "2014-04-20T05:54:30 +04:00",
+    "NotifType": 3
+  },
+  {
+    "notificationId": "22184",
+    "isNew": true,
+    "senderId": "991487236",
+    "recieverId": "991499065",
+    "groupId": "110795",
+    "dateTime": "2014-04-10T07:25:10 +04:00",
+    "NotifType": 0
+  },
+  {
+    "notificationId": "22199",
+    "isNew": false,
+    "senderId": "991487236",
+    "recieverId": "991490312",
+    "groupId": "110795",
+    "dateTime": "2015-05-30T11:44:55 +04:00",
+    "NotifType": 1
+  },
+  {
+    "notificationId": "22371",
+    "isNew": false,
+    "senderId": "5ad7fbc6ebf5b237b12b6623",
+    "recieverId": "5ad7fbc6a9896f646a5767f5",
+    "groupId": "110146",
+    "dateTime": "2015-10-24T10:12:02 +04:00",
+    "NotifType": 3
+  },
+  {
+    "notificationId": "22388",
+    "isNew": false,
+    "senderId": "991488623",
+    "recieverId": "991404115",
+    "groupId": "110146",
+    "dateTime": "2014-11-20T04:28:17 +05:00",
+    "NotifType": 2
+  },
+  {
+    "notificationId": "22410",
+    "isNew": true,
+    "senderId": "991474078",
+    "recieverId": "991402848",
+    "groupId": "110821",
+    "dateTime": "2016-07-08T08:05:17 +04:00",
+    "NotifType": 1
+  },
+  {
+    "notificationId": "22450",
+    "isNew": false,
+    "senderId": "991474078",
+    "recieverId": "991477225",
+    "groupId": "110821",
+    "dateTime": "2017-11-17T07:54:15 +05:00",
+    "NotifType": 3
+  },
+  {
+    "notificationId": "22459",
+    "isNew": true,
+    "senderId": "991424219",
+    "recieverId": "991473424",
+    "groupId": "110267",
+    "dateTime": "2015-05-28T08:41:44 +04:00",
+    "NotifType": 2
+  },
+  {
+    "notificationId": "22474",
+    "isNew": true,
+    "senderId": "991424219",
+    "recieverId": "991488623",
+    "groupId": "110821",
+    "dateTime": "2014-06-23T02:21:40 +04:00",
+    "NotifType": 0
+  }
+]

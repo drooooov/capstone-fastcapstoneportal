@@ -1,0 +1,100 @@
+.background-div {
+  /* height: 100%; */
+  padding: 1%;
+  background: none;
+  background-color: rgba(219, 219, 219, 0.308);
+}
+.profile-container-div {
+  /* height: 90%; */
+  /* padding: 20px; */
+  background-color: white;
+}
+.profile-img {
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding-left: 10%;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  float: left;
+}
+/* .profile-img img {
+  /* width: 200px;
+  height: 200px;
+} */
+.profile-img .btn{
+  padding: 0 10%;
+}
+.profile-details {
+  align-items: flex-start;
+  text-align: left;
+  width: 57%;
+  height: 55%;
+  float: left;
+}
+h2 {
+  text-align: left;
+}
+
+.edit-btn {
+  background-color: #5bc0de;
+  color: white;
+  align-content: center;
+  align-items: center;
+  /* font-size: 12px; */
+  width: 60px;
+  height: 45px;
+  /* margin-right: 1%; */
+  padding-top: 4px !important ;
+}
+.example-chip-list {
+  width: 100%;
+}
+.mat-form-field-wrapper .mat-form-field-underline.ng-tns-c4-0.ng-star-inserted{
+  display: none  !important ;
+}
+.mat-standard-chip.mat-chip-with-trailing-icon {
+  padding-top: 0;
+}
+.mat-chip {
+  display: inline-block;
+  padding: 0 20px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+   color: #626262;
+}
+
+.work-div {
+  width: 37%;
+  height: 300px;
+  /* margin-top: 1.34%; */
+  padding-left: 100px;
+  float: left;
+}
+
+.legend-style {
+  color: grey;
+}
+
+.job-desc {
+  padding-top: 10px;
+  color: #5bc0de;
+}
+.contact-details {
+  width: 57%;
+  padding-left: 4%;
+  height: 55%;
+  float: left;
+}
+tr{
+ border-bottom: none !important;
+}
+.bottom-right{
+  position: static;
+  bottom: 1%;
+  right: 1%;
+}

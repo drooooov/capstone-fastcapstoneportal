@@ -1,0 +1,24 @@
+.name-display{
+    margin-top: 0.5%;
+    font-size: 150%;
+}
+.item{
+    margin: 0% !important;
+}
+.item-obj{
+    padding: 10px !important;
+}
+.view-btn{
+    margin-top: 3.5%;
+}
+
+.scrollable{
+    display:block;
+    height: 400px;
+    overflow:auto;
+}
+.gradient-45deg-indigo-blue {
+  /* background: #303f9f;
+  background: -webkit-linear-gradient(45deg, #303f9f 0%, #1976D2 100%); */
+  background: linear-gradient(45deg, #303f9f 0%, #1976D2 100%);
+}

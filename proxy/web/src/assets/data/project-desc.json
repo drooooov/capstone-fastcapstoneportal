@@ -1,0 +1,155 @@
+[
+  {
+    "Project": "Beehive health monitoring",
+    "Summary": "In this project, students will work closely with Sheridan faculty member and beekeeping Subject Matter Expert, Peter Wheeler to collect the system requirements. They will develop an IOT application to monitor the health of beehives and provide \"big data\" for  analytics as well as alert information for beekeepers and other stakeholders. The type of device deployed needs to be cost effective and so students should have some hardware interest. Application should be feasible for actual deployment and attractive to students with sustainability and entrepreneurial ambitions"
+  },
+  {
+    "Project": "Mini business incubator portal",
+    "Summary": "In this project, students will design and develop a portal to be used by the Alternative Board, a franchise system providing advisory peer board and coaching services for business owners of small and mid-sized, privately owned businesses. It is based in Mississauga. Students will work with Area Advisor John Womack to produce a member portal and select projects suitable for student or graduate involvement. Students will be able to network with local SMB and be involved in entrepreneurial IT projects. The requirements/scope are broad in nature and will need refining."
+  },
+  {
+    "Project": "App to enable accessibility community participation ",
+    "Summary": "In this project, students will have the opportunity to iterate an existing Sheridan capstone-developed application and publish it to the app store (bring it to market). A comprehensive operational assessment has been done to help the students. Recreational Respite offers therapeutic recreation to children, youth, teens, adults and older adults who have various special needs (Autism to Alzheimer's). The user creates a profile in the application is then notified of programs available  in their community- based on the information about themselves and their interests which they have inputted. Students should be keen on development of production-quality systems as well as a strong interest in community social programs."
+  },
+  {
+    "Project": "Comprehensive opera performance and composition database",
+    "Summary": "The objective of this project to build a comprehensive, crowd sourced database containing content related to Canadian opera performance and opera composition. Candidates should have subject interest in arts/music and be interested in big data, no-SQL data storage mechanism combined with crowdsourced input. The client will have quite explicit requirements and input and the students have great opportunity to learn interesting Canadian culture as well as current technologies. The students will also bootstrap the database with content provided by the partner."
+  },
+  {
+    "Project": "Picture to UPC to e-marketplace ",
+    "Summary": "This project has the objective of identifying a Universal Product Code (UPC) from a regular smart phone camera picture of a product. The UPC code can then be used to determine exactly what the product is including name, description retail and wholesale prices . The use case is centered around a person wanting to sell something on an online market (like Kijiji). They take a picture of the item and after loading it to the website, they are told the formal product name and price-related information. This information can then be integrated to the online market to make the process of creating listing simple, reliable and with greater integrity/trust.. The students must have desire and  willingness to research both image processing and Machine Learning. The code/system would have significant value if it can be made into a Minimal Viable Product (MVP)"
+  },
+  {
+    "Project": "Logistics operations  Portal",
+    "Summary": "In this project, students will work closely with the owner of a startup logistics (trucking) company that has a need for key operational systems . This includes review of our current system rates, a  billing automating tool to help with integration of accounting and operational systems to include project management. Students will be immersed deeply with real actual needs and real life problems and the intention is for the application to be put into production and use. Students for this project would have to be serious about client system adaptation and will likely spend considerable time with requirements gathering/user analysis. Logistics is a very large market in GTA and thus the skills learned are highly desirable and transferable."
+  },
+  {
+    "Project": "Inclusion and accessibility hub",
+    "Summary": "The goal of this project is to create an interactive  tool to encourage and educate professionals, families and friends as to how to encourage participation, engagement, inclusion and accessibility. The concept is centered around creation of a personal story to help explain needs of an indivisual involved in therapeutic recreation. Students will be fortunate in working with and collecting requirments form the owner who is also i a PhD study."
+  },
+  {
+    "Project": "Custom baby blankets portal",
+    "Summary": "In this project, students will be able to showcase their creativity to create a cloud-based commerce system which enable ordering of custom-made baby blankets. You will be able to collect the requirements from the owner, Loretta Morson, who has started the business as a hobby and passion. The project should be fun and interesting, but nonetheless the client is looking for a system and website that would be fully operational and able to take orders. The challenge of the system will be for the user to specify/customize their requirement and for the system to provide a tailored quote to match it. The system should be able to accept and confirm the order. In addition, clients may want to track the progress of their blanket all the way to shipment through social media. Students can freely point to the site and use it as reference in their job resumes."
+  },
+  {
+    "Project": "Jewelry repair portal",
+    "Summary": "This project is an adjunct or enhancement to a prior project to provide an online experience for a successful Jeweler store in Aurora Ontario.. The client, Jonathan Vandenbosche had a good experience with a the prior capstone team, but he and his staff want to make the system functional/operational and especially focus on the busy and involved jewelry repair scenario. Use cases would include clients registering tot the site, obtaining quotes, submitting repairs and tracking progress up to delivery. Team must have desire to bring it to production and provide maintenance. Emphasis of this project is quality and production readiness as well as operational plan (student team should get a support contract after graduation)"
+  },
+  {
+    "Project": "Kinesiology wellness portal ",
+    "Summary": "Trainsmart Wellness serves as Brampton’s first and only Kinesiology studio aimed to redefine the quality of care and service currently being offered in the form of personalized one on one training. We aim to lead the way with individualized exercise programming rooted in evidence based exercise science. The profession of Kinesiology is fairly new as it was only regulated in 2013. With such a young profession the resources needed to practice are far and few. Trainsmart Wellness is looking to create an all-inclusive software that can cater to the needs of our business as well as abide to the rules and regulations set forth by the College. We are looking to create a software/app that will enhance client experience as well as digitalize all of our current client files. A one stop shop for clients to log in and; Create their own profile, track their health and fitness goals, review current and past exercise sessions, review exercise programs,  log in and track their workouts, access to an online directory of exercises, book their next session (scheduling) . From a clinic standpoint we need to be able to;  Input patient files (must be secured and encrypted), health history, medical files, anthropometric measures ,  assessment results, chart each session, exercise, reps, sets, notes , create exercise programs , interpretation and classification of health results . The experience:  creating an online culture and community, Increase client interaction and communication within one another, messaging, share healthy tips, articles, etc.. "
+  },
+  {
+    "Project": "Recreation activity sharing",
+    "Summary": "The general idea/goal of this project is to act as a cross of meetup and Airbnb… to allow enhanced sharing of community recreational resources such as basketball and tennis courts, soccer fields etc. You will work with Devin Ramphal from the City of Brampton to identify the stakeholders and requirements for this project."
+  },
+  {
+    "Project": "Franchise budgeting system",
+    "Summary": "This project has a strong merit for students with serious commercial software and/or franchise operations ambitions.  Students must be keen and proficient with financials (accounting/budgeting) and proficient with MS Excel and databases. You will be working with an owner of 12 McDonalds franchises (Germany) who was once a VP of IT for McDonalds Corp. Currently the budgeting process for a franchise owner is highly time consuming and dependent on Microsoft Excel/ and personal productivity tools. The owner understands the scenarios and use cases for an RDBMS-based budgeting tool meant for McDonald's franchise owners and is willing to work with a team to provide the detailed requirements to enable development of solution. The solution should deliver strong ROI for this franchise owner, and thus, combined with the personal network of the owner, it can rapidly be sold to other franchises worldwide, creating a very sizable business opportunity."
+  },
+  {
+    "Project": "Home Entertainment Installation",
+    "Summary": "In this project you will be working with fellow Sheridan student who has established a small but growing business providing installation services for home entertainment. The student has developed a set of requirements and business case as part of their entrepreneurship class. Essentially, the capstone team would build a portal which is capable of quoting price to clients and booking installation appointments."
+  },
+  {
+    "Project": "Cut out T-Shirt Sales",
+    "Summary": "In this project you will be working with a follow Sheridan student who has interest in establishing a small business. The student is familiar with all scenarios and use cases involved in sales, manufacturing and distribution of fashionable cut out t-shirts. The business provides opportunity for students to make extra income part time while also providing a solid basis for a functional transaction system which support startup/cottage industry. Nice reference website for students to add on their job resume."
+  },
+  {
+    "Project": "Eggshell Message",
+    "Summary": "In this project you will be working with a follow Sheridan student who has interest in establishing an interesting small business/social app. The student is familiar with all scenarios and use cases involved in creation of eggs with secret messages written inside them. https://www.wikihow.com/Place-a-Message-Inside-an-Egg  The business provides opportunity for students to make extra income part time while also providing a solid basis for a fun system for student. Nice reference website for students to add on their job resume."
+  },
+  {
+    "Project": "Meeting room crowd Source",
+    "Summary": "With this project you will be working with a felloe Sheridan student who has established a business plan for an application to unlock revenue potential for unused meeting rooms at private or public institutions. It is analogous to a Airbnb for meeting rooms. Students can identify college rooms and/or rooms from other stakeholders to use as proof of concept."
+  },
+  {
+    "Project": "Intelligent Data Capture Services Portal",
+    "Summary": "Intelligent data capture related to digital image capture and processing, for instance, the scanning of completed paper surveys followed by analysis of written results (check boxes, values, written responses) and ultimately the correct reporting of results into an RDBMS such as MS Access. This application s to build an quotation system where by site visits can submit sample forms and instructions they would like to have and receive quotes. They also have the ability to accept a quotation and place/track order. "
+  },
+  {
+    "Project": "LC Management for Builders",
+    "Summary": "This client has had Capstone award winning teams in the past, such as for the tablet-based PDI system, however the environment is challenging and suitable only for teams with high level of professionalism and PM skills. The project has been attempted before, but the results were unsatisfactory. The business problem involves builders, municipal governments and banks. The financial instrument involved is a LC \"Letter of Credit\". Preliminary investigation reports are available."
+  },
+  {
+    "Project": "Cybersecurity Awareness Portal",
+    "Summary": "In this project students will provide a portal to raise cybersecurity awareness for clients based on their corporate profile. Visitors register to the site and complete a number of survey questions about their network, organization, HR and nature of business. The system attempts to identify the most critical data companies of the business and the most likely related security threats. The system produces a customized set of cybersecurity awareness presentations and video along with a plan to improving cybersecurity awareness in the company."
+  },
+  {
+    "Project": "Tydan Skate Sharpening app",
+    "Summary": "Currently, we offer a skate sharpening membership for $65+tax. A skate sharpening membership is a 10 pack of skate sharpenings. When a customer purchases a membership, we manually enter the customers name & sharpening specs into a database that we have on a computer. The problem we have is that the computer & software is very old and we do not have it backed up, so if it were to crash, we would have serious problems.  What I would absolutely love is to have a Tydan App compatible on the App Store & Google Play Store. A customer can log into their account using a unique username & password. This would then open the customers profile. From their profile they would have access to their sharpening specs and they will be able to track how many sharpenings they have remaining on their membership. Next, I would like for customers have the option to reload their memebership and be able to pay for it right on the app. When a customer comes in to have their skates sharpened, the Tydan staff would simply mark the sharpening on the “admin” side of the app that we can have on our shop iPad. "
+  },
+  {
+    "Project": "Organizational Performance Management Dashboard",
+    "Summary": "This project, OPMD, will develop a useful tool for analyzing organizational performance and strategic alignment. Specific data (key performance indicators) will be manually entered. The data will be compared to predetermined thresholds and assigned a color (red, yellow, blue, green) indicating the performance levels. For red indicators the system will prompt action with mandatory fields (who, what, when & requirements specific to resources & technology, as applicable). Yellow indicators will prompt similar information, but will be optional. Remarks/notes to be added for all four performance indicators. Visually, the OPMD dashboards will present an overall performance picture. Supporting information will be embedded under each KPI with drill down capability. OPMD monitoring frequency will range from monthly, quarterly, six-monthly to annually. User will be provided an option to view the data graphically (pie chart, line diagrams etc.) to analyze the trend and check relative positions."
+  },
+  {
+    "Project": "Building Reno Tracking Application",
+    "Summary": "This project will produce a project tracking website to providing photographic evidence of construction project progress, matched to timeline and schedule. I will serve as a progress tracking tool as well as issue management resolution. Some of the inspiration from this project comes form the 2015 Capstone Competition winning solution from JACK software which provided a tablet-based PDI (pre Delivery Inspection) logging system for builders."
+  },
+  {
+    "Project": "Home Staging Business –Management Information System",
+    "Summary": "We are looking for a software that will manage our inventory of furniture, accessories, artwork, and linens.  This software needs to keep track of items we have on hand, properties our inventory gets delivered to, as well as keep a history of where and how often pieces get used.  It also needs to keep a history of the work flow our inventory has undergone.  This software also needs to keep track of property details, client contact information as well as any information about the project that may be useful to the team.  Each team member should have their own unique user ID as well as user restrictions, based on their position.\r\n\r\nOur team consists of 3 stagers, 3 movers, 1 office assistant and the owner.\r\n"
+  },
+  {
+    "Project": "TV and Movie Talent Agency Application Registry ",
+    "Summary": "This project will support the operations for a background agency for tv and movie productions. With appropriate permissions casting directors, would be able to access candidates and their profiles/pictures. The site could be modelled somewhat like real estate search site and include various categories and information types  names... photos...sizes... special skills... car.  It needs to be very searchable... such as example Actra men 5'10-6'1 or chest 42-44 or ladies 5'6 blonde hair.  or I have actra female.. non actra female... Actra men... actra kids... special skills people.. paramedics... fire...etc.\r\nThe application will need to be very mobile friendly and provide a sharing option in case of possible matches ideally choosing to show optional stats such as height... weight... Ideally, talent would go in set up a password protected account and upload or edit their info with approval from administration before being  visible to casting agents. Administration should also have access to alter info."
+  },
+  {
+    "Project": "FAST Capstone Portal Project",
+    "Summary": "Students working in this project will create a portal and repository for Sheridan FAST Capstone projects. The site shall facilitate matching of projects to student teams and also act as repository and workflow manager for important legal agreements between the students, partner and school including confidentiality, NDA and Intellectual Property arrangements. Because students are involved into he capstone process first hand, use cases are derived from the  scenarios which students and faulty are undertaking."
+  },
+  {
+    "Project": "Cybersecurity Risk Assessement portal",
+    "Summary": "A cybersecurity risk rating allowing for insurers, potential business partners and clients to gauge the security posture of an organization through a series of daily audits that measure the risk an organization carries with its current configuration.  These audits will result in a score that is averaged over a floating 10 day period and will be measured against other companies in their space i.e. manufacturing, retail, IT. One application for a such a rating system can allow cyber-insurance companies to calculate the premiums.  Another is for a merger or acquisition, stating that a particular risk score must be achieved and maintained as part of the condition for sale."
+  },
+  {
+    "Project": "FAST Alumni social media portal",
+    "Summary": "In this project, students will help to develop an application to enhance alumni networking in case of job or other opportunity. The idea is to be able to locate alumni, recognize their employment status, be able to content them through non-Sheridan email or social media (Facebook, LinkedIn, WhatsApp) etc. to inform them of job opportunity. Scenario: A professor comes across a full time, well paying job opportunity but need to provide a specific candidate to match the requirements. They know of a few graduates what may fit the need, but these students do not respond to their Sheridan email and the job opportunity is thus lost.",
+    "Selection": "4"
+  },
+  {
+    "Project": "Logistics ops mobile training guide",
+    "Summary": "In this project, students will work closely with the owner of a startup logistics (trucking) company that has a need for key operational systems . This project will provide the development of simple training guide for staff on use of systems i.e. booking, android apps. students will be immersed deeply with real actual needs and real life problems and the intention is for the application to be put into production and use. Students for this project would have to be serious about client system adaptation and will likely spend considerable time with requirements gathering/user analysis. Logistics is a very large market in GTA and thus the skills learned are highly desirable and transferable."
+  },
+  {
+    "Project": "FishHackathon (Multiple)  http://fishackathon.co/ ",
+    "Summary": "Multiple student teams may elect to experiment with RAD and Agile development and build an application to help support Ocean Sustainability that may catch the attention of the US State department, national governments or global fishing companies. Students can pick from or create their own challenge set such as Sustainability: Overfishing, pollution, and other hazards threatening the extinction of marine species throw off our ecological balance and can have devastating effects on entire ecosystems. Enforcement: Agencies often lack the resources to effectively enforce existing fisheries regulations. The result is environmental damage and significant inequity between large and small-scale fishers or Marketplace: Poor access to data puts smaller players at a disadvantage in marketplaces and can hinder companies from making intelligent, socially responsible purchasing decisions. You will need to use a RAD/Agile approach and participate in the Feb 10-11 hackathon at one of the 65+ locations.\r\n"
+  },
+  {
+    "Project": "Serious Gameificiation for Heath",
+    "Summary": "Serious games for health educate and entertain users in a focused way to motivate users for a focus behavior change. These types of games have been designed to promote better health outcomes in patients, improve workforce training, and promote the education of products and health services. The industry has grown to over one billion dollars with hundreds of products and prototypes developed by the academic sector and commercial sector. This Capstone project will review the design of system for serious games for health for wellness. The wellness programs have been developed by several companies to help promote better healthy lifestyles of employees. Gamification techniques have been developed to increase user engagement and improve behavior change. In this Capstone project you will 1) review the leading apps for wellness and make a market analysis of the strengths and limitations of each app 2) review the evaluations that have been done to show return on investment (health outcomes, costs) 3) identify interoperability standards to share data from these apps with corporate employers while protecting privacy of employee 4) evaluate the true implementation costs and challenges (technical and organizational) of these apps by interviewing companies that have implemented these systems in the USA and Canada 5) develop a market plan for a new wellness app that will overcome limitations of current systems. Example Companies in this sector: Rally Health (formerly Audax Health) http://www.rallyhealth.com/ , Hubbubhealth - http://www.hububhealth.com, Virgin Pulse http://www.virginpulse.com . \r\n"
+  },
+  {
+    "Project": "Organic farming IOT big data analytics",
+    "Summary": "We are also developing a community farm to teach sustainability, water preservation, renewables. We have 8 acres of farmland for this and IBM is putting their “IOT farm of the future “demo here and the client is looking for looking for more partners. Interesting topics include carbon footprint measurment as well as growth condition monitoring including LED lighting.  3D terrain design skill is good asset."
+  },
+  {
+    "Project": "Mobile food and bev ordering system for golf course",
+    "Summary": "Food and Beverage carts alone cannot meet needs of clientele on a golf course. The client is looking for ways to improve the entertainment experience at the course and one of the projects is a mobile app that will allow golfers to order beer and food while out on the course so as to have it ready for them when they reach the 19th hole.  I envision something like a QR code at each tee that would take them to a web-based portal so the golfers don’t even need to install any software on their phones.  "
+  },
+  {
+    "Project": "Trainer/Client matching System",
+    "Summary": "How do you find a quality trainer? How do you find a trainer that specializes in what you want to accomplish? On the flip end, if you are a highly educated trainer how can you attract the clients you want and the clients you know you can impact greatly? That’s where the Trainsmart matching app comes to bridge the gap between the trainers and clients. We want to create a place where Trainers with a minimum of 2 years post-secondary education can create a custom profile about themselves which can include;  Their education • Their profile • Upload, photos, videos • Testimonials of clients they have worked with • Their style of Training • Their speciality, cardiac rehab, diabetes management, movement, weight loss\r\n"
+  },
+  {
+    "Project": "Apex: HowWeRoll Rentals RV",
+    "Summary": "This is an experiential capstone project using commercially available no-charge training materials. Trailhead provides developers and administrators a guided, learning path through the key features of Salesforce, using a set of interactive, online tutorials. Superbadges are  contain capstone cases for Cloud-based systems built with devops and agile methods and result in unofficial accreditation that  show that you can take what you've learned and apply it to advanced, real-world business requirement and start or level up your resume and career. Students can explore the various opportunities but Salesforce admin is more aligned with Software Developments, coupled with devops/agile cloud delivery. The recommended Case Study/scenario is  https://trailhead.salesforce.com/en/super_badges/superbadge_apex"
+  },
+  {
+    "Project": "Business Specialist: Ursa Major Solar Inc.",
+    "Summary": "This is an experiential capstone project using commercially available no-charge training materials. Trailhead provides developers and administrators a guided, learning path through the key features of Salesforce, using a set of interactive, online tutorials. Superbadges are  contain capstone cases for Cloud-based systems built with devops and agile methods and result in unofficial accreditation that  show that you can take what you've learned and apply it to advanced, real-world business requirement and start or level up your resume and career. Students can explore the various opportunties but Salesforce admin is more aligned with Sytstems Analsysis, coupled with devops/agile cloud delivery. The recommended Case Study/scenario is  https://trailhead.salesforce.com/en/super_badges/superbadge_business_specialist   "
+  },
+  {
+    "Project": "App to build auditory processing skills",
+    "Summary": "Our goal is to design an app with various activities and tasks that will help build auditory processing skills for various ages, and to track improvements in auditory processing abilities based on each of the tasks designed in the app (i.e., listening in noise, sound isolation, sound and word discrimination).  We are hoping to identify which tasks show the biggest improvements in auditory processing so that we can further fine tune activities and enhance these skills to the best of our ability and really make a difference to students! Goal for age 6-12 is  to train the brain for various listening tasks: to develop listening skills in particular areas of auditory processing (listening), enhancing focus and attention. Each task type would contain 3 modules, each for a different level of difficulty.\r\nWithin each level of difficulty, the content must be presented randomly to prohibit predictability. A tracking system to mark progress, successes, and failures, must be built into each level. At the completion of a level, the user should be presented with a choice of some games or a motivating activity as a reward for their perseverance and work."
+  },
+  {
+    "Project": "NOC Management Portal",
+    "Summary": "The system is to have an excellent, vibrant User Interface and is to be used for task management in a cybersecurity  NOC. The system is aware of tasks which all have specific time limits according to an Service Level Agreement (SLA), These tasks are assigned on shift levels and daily, weekly or monthly occurrence. The system will service multiple stakeholders.. it will be a dashboard for NOC management, a productivity tool for to the security analysts, and a billing system (reports, SLA attainment) for clients. The implementation platform choice is open. Developers may choose to integrate to MS Outlook, for instance for personal calendar or task management."
+  },
+  {
+    "Project": "App to locate public lands in Canada",
+    "Summary": "Our vision is to create a virtual community that blends the wonders of nature with the benefits of technology. \r\nSimply put, we strive to simplify and increase the accessibility and convenience of outdoor activities for everyone! For phase 1 POC Using the GoogleMaps API, we will build a web-based application that will allow users to locate any and all public lands throughout Canada.  Once a suitable location is found, users will be able to plan an event (fishing, camping, picnics, family reunions etc) and invite others to the event. Guests will receive an email with a customized which will bring them to a webpage detailing the event.\r\nThe initial app will be free to all with a small nag button suggesting that the users make a small donation. F\r\nWe are looking for a group of hard-working students who want to make a difference to build our Phase I proof of concept site.  Ideally, we will have a working web-app at the completion of the Sheridan Capstone that will allow users to find crown parks across Canada, to create events at these parks, invite guests, and make small donations to the site.\r\n"
+  }
+]

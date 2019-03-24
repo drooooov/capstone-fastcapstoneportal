@@ -1,0 +1,153 @@
+.background-div{
+  padding: 10px;
+  /* background-color: #d6d2d288; */
+}
+
+.img-size{
+  width: 75px;
+  height: 75px;
+}
+
+.student-tab{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,175,1) 39%, rgba(0,212,255,1) 62%, rgba(0,212,255,0.8718837876947654) 83%);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px 2px rgb(147, 148, 197);
+}
+
+.btn-invite{
+border-color: #2ecc71;
+border: 2px solid #2ecc71;
+color: #fff;
+box-shadow: 0 0 40px 40px #2ecc71 inset, 0 0 0 0 #2ecc71;
+transition: all 150ms ease-in-out;
+}
+.btn-invite:hover {
+  box-shadow: 0 0 10px 0 #2ecc71 inset, 0 0 10px 4px #2ecc71;
+}
+
+
+.btn-view-profile{
+  border-color: #1A237E;
+  border: 2px solid #1A237E;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #1A237E inset, 0 0 0 0 #1A237E;
+  transition: all 150ms ease-in-out;
+}
+.btn-view-profile:hover {
+    box-shadow: 0 0 10px 0 #1A237E inset, 0 0 10px 4px #1A237E;
+  }
+
+
+.default-btn {
+box-sizing: border-box;
+-webkit-appearance: none;
+-moz-appearance: none;
+     appearance: none;
+cursor: pointer;
+  display: flex;
+  align-self: center;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+.default{
+
+  background-color: #1A237E;
+  font-size: 1rem;
+  border-radius: 0.6em;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 10px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+
+}
+input.default{
+width: inherit;
+}
+
+.default-btn:hover, .default-btn:focus {
+  color: #000;
+  outline: 0;
+}
+
+.default-btn i{
+  color: black;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  size: 20px;
+  border-collapse: collapse;
+  border: none;
+}
+thead{
+    background: #1A237E;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+thead th:nth-child(1) {
+  width: 6%;
+}
+
+thead th:nth-child(2) {
+  width: 25%;
+}
+
+/* thead th:nth-child(3) {
+  width: 17%;
+}
+
+thead th:nth-child(4) {
+  width: 15%;
+}
+thead th:nth-child(5) {
+  width: 15%;
+} */
+thead th:nth-child(6) {
+  width: 10%;
+}
+thead th:nth-child(6) {
+  width: 10%;
+}
+
+
+
+th {
+  padding: 10px;
+}
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    text-align: left;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d6d2d2;
+}
+
+.default span i{
+    color: white;
+}
+
+thead th:first-child {
+  border-radius: 10px 0 0 0;
+}
+thead th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+tbody tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}

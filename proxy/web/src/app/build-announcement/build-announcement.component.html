@@ -1,0 +1,67 @@
+<div id="card-stats" class="seaction">
+  <h4 class="header">Send Announcement</h4>
+  <p> Select the announcement to send.</p>
+  <div class="row">
+    <!-- <div class="col s12 m6 l6">
+      <div class="card">
+        <div class="card-content cyan white-text">
+          <p class="card-stats-number">
+          New Clients
+          </p>
+        </div>
+        <div class="card-action cyan darken-1">
+          <div id="clients-bar" class="center-align">
+            <a class="btn">Send</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l6">
+      <div class="card">
+        <div class="card-content red accent-2 white-text">
+          <p class="card-stats-number">
+          New Clients
+          </p>
+        </div>
+        <div class="card-action red accent-3 white-text">
+          <div id="clients-bar" class="center-align">
+            <a class="btn">Send</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l6">
+      <div class="card">
+        <div class="card-content teal accent-4 white-text">
+          <p class="card-stats-number">
+          New Clients
+          </p>
+        </div>
+        <div class="card-action teal darken-1 white-text row">
+          <div id="clients-bar" class="center-align col s12 m12 l12">
+            <a class="btn ">Send</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="col s12 m12 l12">
+      <div class="card">
+        <div class="card-content blue lighten-2 white-text">
+          <p class="card-stats-number">
+          Custom Announcement
+          </p>
+        </div>
+        <div class="card-action blue darken-3 white-text ">
+            <div class="input-field col s12">
+                <i class="material-icons prefix white-text">format_align_left</i>
+                <textarea id="announcement" type="text" class="materialize-textarea white-text" [(ngModel)]="customAnnouncement" ></textarea>
+                <label class="white-text" for="announcement">Announcement</label>
+              </div>
+          <div id="clients-bar" class="center-align ">
+              <a class="btn orange accent-4" (click)="createAnnouncement()"  >Send</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

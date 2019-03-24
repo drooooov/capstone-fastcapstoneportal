@@ -1,0 +1,45 @@
+.vs/
+.vscode/
+*.sln
+api/FASTCapstonePortal/*.user
+api/FASTCapstonePortal/obj
+api/FASTCapstonePortal/bin
+api/FASTCapstonePortal/Migrations
+api/FASTCapstonePortal/Properties
+
+proxy/web/dist
+proxy/web/tmp
+proxy/web/out-tsc
+
+# dependencies
+proxy/web/node_modules
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+proxy/web/.sass-cache
+proxy/web/connect.lock
+proxy/web/coverage
+proxy/web/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+proxy/web/typings
+
+# System Files
+.DS_Store
+Thumbs.db

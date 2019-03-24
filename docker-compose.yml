@@ -1,0 +1,56 @@
+version: '3.3'
+ 
+services:
+  api:
+    container_name: capstone_api
+    build:
+      context:  ./api
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://*:5000
+      - ASPNETCORE_ENVIRONMENT=Production
+    expose:
+      - "5000"
+    volumes:
+      - uploaded_images:/app/wwwroot/Images/
+    networks: 
+      capstone-network:
+        aliases:
+          - apis
+    depends_on:
+      - db
+ 
+  proxy:
+    container_name: capstone_proxy
+    build:
+      context:  ./proxy
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    networks: 
+      - capstone-network
+    depends_on:
+      - api
+
+  db:
+    container_name: capstone_db
+    build:
+      context:  ./db
+      dockerfile: Dockerfile
+    environment:
+      SA_PASSWORD: "team_concept_talwardh10!"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - db_data:/var/opt/mssql/
+    networks: 
+      capstone-network:
+        aliases:
+          - dbs
+    
+networks: 
+  capstone-network:
+    driver: bridge
+
+volumes:
+  uploaded_images:
+  db_data:

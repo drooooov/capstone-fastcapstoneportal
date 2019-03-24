@@ -1,0 +1,19 @@
+<div class="col s12 m12 l12">
+  <ul id="projects-collection" class="collection z-depth-1">
+    <li class="collection-item" *ngFor='let notify of notificationsList'>
+      <div class="row remove-margin">
+        <div class="col s9">
+          <p class="collections-content" [innerHTML]='notify.message' ></p>
+        </div>
+        <div class="col s3">
+          <span class="task-cat" [ngClass]='NOTIFY_COLOR[notify.entreatyType]' >{{ NOTIFY_TYPE[notify.entreatyType]}}</span>
+        </div>
+      </div>
+      <div _ngcontent-c4="" class="row remove-margin-btn" *ngIf="notify.entreatyType === 0 && isAdmin">
+          <a class="btn waves-effect waves-light blue darken-4" (click)="viewStudent(notify.student)" >View</a>
+          <a class="btn waves-effect waves-light green lighten-1" (click)="accept(notify.group, notify.student)">Accept</a>
+          <a class="btn waves-effect waves-light red darken-4" (click)="reject(notify.group, notify.student)">Reject</a>
+      </div>
+    </li>
+  </ul>
+</div>

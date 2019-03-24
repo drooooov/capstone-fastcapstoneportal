@@ -1,0 +1,126 @@
+
+<div class="background-div">
+  <div class="container-fluid profile-container-div">
+    <div class="row section">
+      <div class=" col s4 m4 l4 center-align profile-img" >
+        <img src="{{img_src}}" class="profile-img img-thumbnail" alt="Profile Image" width="250px" height="10px">
+        <a _ngcontent-c10="" class="btn waves-effect waves-light red" (click)="fileInput.click()"  >
+          <i _ngcontent-c10="" class="material-icons right">file_upload</i> Upload
+        </a>
+        <input type="file" class="hide" (change)="onFileChanged($event)" #fileInput>
+      </div>
+      <div class="col s8 m8 l8 profile-details" >
+        <div class="section">
+          <!-- <input class="form-control p-1 roleField" type="text" placeholder="Sanchay Talwar" readonly> -->
+          <h4 class="col s10 m10 l10">{{currentStudent.firstName}} {{currentStudent.lastName}}
+          </h4>
+          <button type="submit" (click)="updateStudent()"  routerLink="/profile" class="col s2 m2 l2 btn edit-btn ">
+            Save
+          </button>
+        </div>
+        <!-- <div class="input-field">
+          <label for="role">Role</label>
+          <input type="text" class="form-control roleField" id="role" aria-describedby="roleHelp" placeholder="Front end Developer">
+        </div>
+      -->
+      <div class="input-field col s12">
+        <input value="Front end Developer" [(ngModel)]="currentStudent.role" id="role" type="text">
+        <label class="active" for="role">Role</label>
+        <span class="helper-text" >You may enter One Role </span>
+      </div>
+      <div class="row">
+        <h5 class="col l12 s12 m12">
+          <legend class="legend-style">Skills</legend>
+        </h5>
+        <div class="col l12 s12 m12">
+          <mat-form-field class="example-chip-list">
+            <mat-chip-list #chipList>
+              <mat-chip *ngFor="let skill of skills" [selectable]="selectable"
+              [removable]="removable" (removed)="remove(skill)">
+              {{skill.name}}
+              <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+            </mat-chip>
+            <input [matChipInputFor]="chipList"
+            [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+            [matChipInputAddOnBlur]="addOnBlur"
+            (matChipInputTokenEnd)="add($event)">
+          </mat-chip-list>
+        </mat-form-field>
+      </div>
+        <!-- <div class="chip grey lighten-4 ">
+          JAVA
+        </div>
+        <div class="chip grey lighten-4">
+          Database
+        </div>
+
+        <div class="chip grey lighten-4">
+          UI/UX Design
+        </div>
+
+        <div class="chip grey lighten-4">
+          .NET
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="row section">
+
+    <div class="col-auto work-div">
+      <div class="">
+        <h4>
+          <legend class="legend-style">Work </legend>
+        </h4>
+        <h5 class="job-desc">Royal Bank Canada</h5>
+        <p>180 Wellington Street<br>
+          toronto, Ontario, L6Y 5S4
+        </p>
+      </div>
+
+      <div>
+
+        <h5 class="job-desc">Scotia Bank </h5>
+        <p>120 Wellington Street
+          <br>Brampton,Ontario,M4D5F3
+        </p>
+      </div>
+
+
+    </div>
+    <div class="col-auto contact-details">
+      <h4 style="color:grey;">Contact Information</h4>
+      <table class="table table-borderless">
+
+        <tbody>
+          <tr>
+            <td>Description:</td>
+
+            <td>
+              <input type="text" class="form-control" [(ngModel)]="currentStudent.description" placeholder="A brief statement" />
+            </td>
+          </tr>
+          <tr>
+            <td>Linkedn:</td>
+
+            <td>    <input type="text" class="form-control" [(ngModel)]="currentStudent.linkedinLink" name="" id="" placeholder="linkedin.com/in/john-doe" />
+            </td>
+          </tr>
+          <tr>
+            <td>Portfolio:</td>
+
+            <td>  <input type="text" class="form-control" [(ngModel)]="currentStudent.portfolioLink" name="" id="" placeholder="github.com/johndoe" />
+            </td>
+          </tr>
+          <tr>
+            <td>Program:</td>
+
+            <td><input type="text" class="form-control" name="" id="" value="SDNE" readonly>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</div>

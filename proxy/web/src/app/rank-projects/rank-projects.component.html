@@ -1,0 +1,63 @@
+
+    <div class="container-fluid">
+
+
+
+
+      <div class="row ">
+          <div class="col s12 m12 l12 center">
+              <h5>Rank Projects</h5>
+          </div>
+      </div>
+
+
+      <hr/>
+
+      <div class="scrollable">
+          <table class="striped">
+              <thead>
+                  <tr>
+                      <th>S.No.</th>
+                      <th>Name</th>
+                      <th>Company</th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let project of preferredProjects">
+                      <td>{{project.rank}}.</td>
+                      <td>{{project.projectName}}</td>
+                      <td>{{project.company}}</td>
+                      <td>
+                          <button class="btn grey lighten-1 ">
+                              <i class="large material-icons" (click)="changeRank('up',project.rank)">arrow_upward </i>
+                          </button>
+                      </td>
+                      <td>
+                        <button class="btn grey lighten-1 " (click)="changeRank('down',project.rank)" >
+                            <i class="large material-icons">arrow_downward </i>
+                        </button>
+                    </td>
+                    <td>
+                          <button class="btn  red darken-4 ">
+                              <i class="large material-icons">cancel</i>
+                          </button>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="row">
+              <div class="col s12 m12 l9 center">
+
+              </div>
+              <div class="col s12 m12 l3 view-btn center">
+                  <button class="btn  light-blue darken-1 " (click)="rankProjects()" >Done</button>
+              </div>
+          </div>
+
+  </div>
+

@@ -1,0 +1,14 @@
+div.card .card-content .card-title{
+  font-weight: 600;
+}
+div.card .card-action{
+  border-top-width: 5px;
+  right: 10%;
+  position: static;
+}
+
+/* div.card .card-action .btn{
+} */
+div.card .card-action.decision .btn.green{
+  margin-right: 2%;
+}

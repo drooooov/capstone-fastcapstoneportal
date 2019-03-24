@@ -1,0 +1,85 @@
+.imgDisplay{
+  width: 90%;
+  height: 300px;
+  margin: 5%;
+}
+.details{
+  font-size: 1.1em;
+  padding: 0.1em;
+}
+.edit-btn{
+  margin-top:  10%;
+}
+#container-a{
+float:left;
+  width:50%;
+   height: 300px;
+   padding-top:50px;
+}
+
+
+#container-b{
+float:left;
+ width:50%;
+  height: 300px;
+   padding-top:50px;
+text-align: center;
+}
+
+#container-c{
+float:left;
+ width:50%;
+ height: 300px;
+ padding-top:50px;
+text-align: center;
+}
+
+#container-d{
+float:left;
+width:50%;
+ height: 300px;
+ padding-top:50px;
+}
+.chip {
+display: inline-block;
+padding: 0 25px;
+height: 50px;
+font-size: 16px;
+line-height: 50px;
+border-radius: 25px;
+background-color: #f1f1f1;
+}
+
+.flex-container > div.card {
+background-color: #f1f1f1;
+width: 80%;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.a{
+/* padding-top: 12%; */
+width:40%;
+padding-left: 3.5%;
+border: 0px solid black;
+float: left;
+}
+#cardb{
+width:240px;
+ border-radius:5%;
+  box-shadow: 10px 10px 2px grey; }
+
+.member-list{
+margin: 5%;
+}
+.member-heading{
+padding-left: 20;
+}
+.btn-div{
+margin-top: 3%;
+}
+.group-card{
+  height: 450px;
+}

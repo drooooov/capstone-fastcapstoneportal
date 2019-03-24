@@ -1,0 +1,12 @@
+
+.scrollable{
+  display:block;
+  height: 90%;
+  overflow:auto;
+}
+.item-obj{
+  padding: 10px !important;
+}
+.item{
+  margin: 0% !important;
+}

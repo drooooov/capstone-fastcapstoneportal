@@ -1,0 +1,46 @@
+<div class="flex-container ">
+  <div class="row">
+
+
+    <div class="a col s12 m6 l6">
+      <div class="col s12 m8 l10 ">
+
+        <div class="card group-card">
+          <div class="card-image">
+            <img src="../../assets/images/team.jpg">
+            <a routerLink="/homeGroup" (click)="update()" class="btn-floating halfway-fab waves-effect waves-light blue">
+              <i class="material-icons">save</i></a>
+            </div>
+            <div class="card-content">
+              <div class="input-field card-title">
+                <input id="teamName" type="text" [(ngModel)]="groupName"  >
+                <label class="active" for="teamName">Group Name</label>
+              </div>
+              <div class=" input-field col s12">
+                <textarea id="description" [(ngModel)]="description" class="materialize-textarea"></textarea>
+                <label for="description">Description</label>
+              </div>
+              <!-- <p>Finish up a real-time example project of Health Application</p> -->
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class=" col s12 m6 l6">
+        <div class="col s12 m10 l10">
+          <div class="collection with-header">
+            <a class="collection-item">
+              <h4>Members</h4>
+            </a>
+            <a class="collection-item" *ngFor="let member of membersList">
+              <span *ngIf="member.id==curr_group.groupAdmin" class=" new badge" data-badge-caption="">Project Manager</span>
+              <span *ngIf="member.id!=curr_group.groupAdmin && curr_student.id==curr_group.groupAdmin" class="btn new badge red darken-4" data-badge-caption="">Remove</span><span *ngIf="member.id!=curr_group.groupAdmin && curr_student.id==curr_group.groupAdmin" class="btn new badge light-blue darken-4" data-badge-caption="">Make Admin</span>{{member.firstName}}</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l12">
+            <app-rank-projects></app-rank-projects>
+          </div>
+        </div>
+      </div>

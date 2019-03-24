@@ -1,0 +1,80 @@
+<div class="row">
+  <div class="col s12 m12 l12">
+    <div class="row">
+
+      <div class="col s12 m9 l9">
+        <h3 class="a" *ngIf="!viewingProject">Health Care App </h3>
+        <h3 class="a" *ngIf="viewingProject">{{currentProject.projectName}}</h3>
+      </div>
+
+      <div class="edit-btn col s12 m3 l3">
+        <button routerLink="/edit-project" class="btn edit-btn light-blue darken-3 " *ngIf="!viewingProject">Edit</button>
+        <button class="btn edit-btn red accent-2 " *ngIf="viewingProject" (click)="cancel()">Go Back</button>
+        <button class="btn edit-btn red accent-4 delete-btn" *ngIf="isAdmin=='true'" (click)="delete()">Delete</button>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="row a ">
+    <div class="col s6 m12 l2 details">
+      Description:
+    </div>
+    <div class="col s6 m12 l10">
+      <label class="details" *ngIf="!viewingProject">In this project, students will help to develop an application to enhance alumni
+        networking in case of job or other opportunity. The idea is to be able to locate alumni, recognize their
+        employment status, be able to content them through non-Sheridan email or social media (Facebook, LinkedIn,
+        WhatsApp) etc. to inform them of job opportunity. Scenario: A professor comes across a full time, well paying
+        job opportunity but need to provide a specific candidate to match the requirements. They know of a few
+        graduates what may fit the need, but these students do not respond to their Sheridan email and the job
+        opportunity is thus lost. </label>
+        <label class="details" *ngIf="viewingProject">{{currentProject.description}}</label>
+    </div>
+  </div>
+  <div class="row a">
+
+    <div class="col s6 m12 l2 details ">
+      Company:
+    </div>
+    <div class="col s6 m12 l10">
+      <label class="details" *ngIf="!viewingProject">Sheridan College</label>
+      <label class="details" *ngIf="viewingProject">{{currentProject.clientName}}</label>
+    </div>
+  </div>
+  <div class="row a">
+
+    <div class="col s6 m12 l2 details ">
+      IP Type:
+    </div>
+    <div class="col s6 m12 l10" >
+      <label class="details" *ngIf="viewingProject">{{currentProject.ipTypeLiteral}}</label>
+      <div class="rate" *ngIf="!viewingProject">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s6 m12 l2 details ">
+      Sponsor:
+    </div>
+    <div class="col s6 m12 l10">
+      <label class="details" *ngIf="!viewingProject">Mark Buchner : mark.buchner@sheridancollege.ca</label>
+      <label class="details" *ngIf="viewingProject">{{currentProject.clientContact}} : {{currentProject.clientEmail}}</label>
+    </div>
+  </div>
+
+</div>

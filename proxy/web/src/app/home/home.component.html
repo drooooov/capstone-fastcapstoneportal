@@ -1,0 +1,49 @@
+<div>
+  <h2>Announcements</h2>
+  <div class="card-panel item-obj blue-grey lighten-3" *ngFor='let announcement of announcements'>
+    <div class="row item" >
+      <div class="col s12 m12 l12 name-display" >{{announcement.data}}</div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<div class="row container-fluid">
+
+  <div class="row">
+    <div class="col l4">
+      <button class="btn gradient-45deg-indigo-blue" routerLink='/searchStudent' >Search Student</button>
+    </div>
+    <div class="col l4">
+      <button class="btn gradient-45deg-indigo-blue" routerLink='/viewGroups'>View Groups</button>
+    </div>
+    <div class="col l4">
+      <button class="btn gradient-45deg-indigo-blue" routerLink='/viewProjects'>View Projects</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col l4">
+      <button class="btn gradient-45deg-indigo-blue" *ngIf="isAdmin=='true'" routerLink='/createUser'>Create Users</button>
+    </div>
+    <div class="col l4">
+      <button class="btn gradient-45deg-indigo-blue" *ngIf="isAdmin=='true'" routerLink='/createProject'>Create Projects</button>
+    </div>
+    <div class="col l4">
+        <button class="btn gradient-45deg-indigo-blue" *ngIf="isAdmin=='true'" routerLink='/matching'>Matching Projects</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col l4">
+      <button class="btn gradient-45deg-indigo-blue" *ngIf="isAdmin=='true'" routerLink='/student-projects'>Student Projects</button>
+    </div>
+    <div class="col l4">
+        <button class="btn gradient-45deg-indigo-blue" *ngIf="isAdmin=='true'" routerLink='/send-announcement'>Send Announcement</button>
+      </div>
+  </div>
+
+
+
+
+</div>
+<!-- <router-outlet name="showHomeLinks"></router-outlet> -->

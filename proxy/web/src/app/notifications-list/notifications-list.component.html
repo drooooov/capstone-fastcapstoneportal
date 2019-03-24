@@ -1,0 +1,15 @@
+<div class="col s12 m12 l6">
+  <ul id="projects-collection" class="collection z-depth-1">
+    <li class="collection-item" [ngClass]='{unreadNotifications: unreadNotifications.includes(notify.id)}' *ngFor='let notify of notificationsList'>
+      <div class="row remove-margin">
+        <div class="col s9">
+          <p class="collections-content">{{notify.data}}</p>
+          <p class="collections-time">{{notify.time | date:'short' : '-0500'}}</p>
+        </div>
+        <div class="col s3">
+          <span class="task-cat" [ngClass]='NOTIFY_COLOR[notify.notificationType]' >{{ NOTIFY_TYPE[notify.notificationType]}}</span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

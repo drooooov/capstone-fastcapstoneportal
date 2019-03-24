@@ -1,0 +1,21 @@
+i {
+  cursor: pointer;
+}
+.group-display{
+  width: 60%;
+}
+.btn{
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* width: 100%; */
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
+  font-size: 24px;
+  background:#999;
+}
+.whole-list{
+  position: relative;
+}

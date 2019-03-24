@@ -1,0 +1,61 @@
+<div class="container-fluid">
+    <h3 class="orange-text text-darken-4">Create Project</h3>
+    <div class="row">
+      <div  class="col s12 grey lighten-3 orange-text text-darken-4 z-depth-2">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">folder</i>
+            <input id="projectName" type="text" [(ngModel)]="project.projectName">
+            <label for="projectName">Project Name</label>
+          </div>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">format_align_left</i>
+            <textarea id="description" type="text" class="materialize-textarea"[(ngModel)]="project.description" ></textarea>
+            <label for="description">Description</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">location_city</i>
+            <input id="clientName" type="text" [(ngModel)]="project.clientName" [disabled]="isProposedProject" >
+            <label for="clientName" [ngClass]="{active:isProposedProject}">Client Company</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="clientName" type="text" [(ngModel)]="project.clientContact"  [disabled]="isProposedProject" >
+            <label for="clientName" [ngClass]="{active:isProposedProject}">Client Contact Name</label>
+          </div>
+          <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
+              <input id="emailAddress" type="text" [(ngModel)]="project.clientEmail"  [disabled]="isProposedProject" >
+              <label for="emailAddress" [ngClass]="{active:isProposedProject}">Client Email Address</label>
+            </div>
+          <div class="col s12 m6 l6">
+              <label>IP Type</label>
+              <select [(ngModel)]="project.ipType" class="browser-default indigo-text text-darken-4">
+                <option value="-1" selected>Choose your option</option>
+                <option value="0">Open</option>
+                <option value="1">Free Licence</option>
+                <option value="2">Joint Venture</option>
+                <option value="3">Client</option>
+              </select>
+            </div>
+          <div class="col s12 m6 l6">
+              <label>Difficulty</label>
+              <select [(ngModel)]="project.difficulty" class="browser-default indigo-text text-darken-4">
+                <option value="-1" selected>Choose your option</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+              <div class="col l12 button-add">
+                <button class="btn orange z-depth-3 center-align" (click)="addProject()" *ngIf="!isProposedProject && !isEdit" >Add Project</button>
+                <button class="btn orange z-depth-3 center-align" (click)="addProjectProposed()" *ngIf="isProposedProject && !isEdit" >Add Project</button>
+                <button class="btn orange z-depth-3 center-align" (click)="editProject()" *ngIf="isEdit" >Edit Project</button>
+              </div>
+      </div>
+      </div>
+    </div>
+  </div>

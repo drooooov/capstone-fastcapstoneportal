@@ -1,0 +1,39 @@
+.collection .collection-list{
+  background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+#content .container .row {
+  margin-bottom: 0;
+}
+p.collections-content, p.collections-title {
+  font-size: 1.2rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: 400;
+}
+.task-cat {
+  padding: 2px 4px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+}
+
+.remove-margin {
+  margin-bottom: 0px !important;
+}
+
+.remove-margin-btn {
+  margin-bottom: 0px !important;
+  margin-top: 1%;
+}
+
+.btn{
+  margin: 0px 2%;
+}

@@ -1,0 +1,78 @@
+<app-title [Title]='title'></app-title>
+<div class="row container-fluid">
+  <form class="col s12 m12">
+    <div class="row container-fluid">
+      <div class="input-field col s6 l6">
+        <i class="material-icons prefix">search</i>
+        <input id="icon_prefix" type="text" class="validate">
+        <label for="icon_prefix2">Name</label>
+      </div>
+      <div class=" col s8 l4">
+        <label>Status</label>
+        <select class="browser-default">
+          <option value="" disabled selected>Choose your option</option>
+          <option value="1">Available</option>
+          <option value="2">Not Available</option>
+        </select>
+
+      </div>
+      <div class="col s4 m2 l2" style="margin-top: 1.2%">
+        <button class="btn-floating btn-large indigo darken-4" >
+          <i class="large material-icons" >search</i>
+        </button>
+      </div>
+    </div>
+  </form>
+  <ul class="pagination">
+    <li class="waves-effect"><a>A</a></li>
+    <li class="active"><a>B</a></li>
+    <li class="waves-effect"><a>C</a></li>
+    <li class="waves-effect"><a>D</a></li>
+    <li class="waves-effect"><a>E</a></li>
+    <li class="waves-effect"><a>F</a></li>
+    <li class="waves-effect"><a>G</a></li>
+    <li class="waves-effect"><a>H</a></li>
+    <li class="waves-effect"><a>I</a></li>
+    <li class="waves-effect"><a>J</a></li>
+    <li class="waves-effect"><a>K</a></li>
+    <li class="waves-effect"><a>L</a></li>
+    <li class="waves-effect"><a>M</a></li>
+    <li class="waves-effect"><a>N</a></li>
+    <li class="waves-effect"><a>O</a></li>
+    <li class="waves-effect"><a>P</a></li>
+    <li class="waves-effect"><a>Q</a></li>
+    <li class="waves-effect"><a>R</a></li>
+    <li class="waves-effect"><a>S</a></li>
+    <li class="waves-effect"><a>T</a></li>
+    <li class="waves-effect"><a>U</a></li>
+    <li class="waves-effect"><a>V</a></li>
+    <li class="waves-effect"><a>W</a></li>
+    <li class="waves-effect"><a>X</a></li>
+    <li class="waves-effect"><a>Y</a></li>
+    <li class="waves-effect"><a>Z</a></li>
+  </ul>
+</div>
+
+<div class="scrollable ">
+  <table class="striped responsive ">
+    <thead>
+      <tr>
+        <th>Full Name</th>
+        <th>Description</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td>{{student.firstName}} {{student.lastName}}</td>
+            <td>{{CAMPUS_TEXT[student.campus]}}</td>
+            <td class="viewProfilebtn">
+              <button class="btn  light-blue darken-3 "(click)="viewStudent(student)" >View Profile</button>
+            </td>
+            <td class="invitebtn">
+              <button class="btn  light-green darken-1 " (click)="inviteStudent(student)" *ngIf='curr_group && !invitedStudents.includes(student.id)' >Invite</button>
+            </td>
+          </tr>
+    </tbody>
+  </table>

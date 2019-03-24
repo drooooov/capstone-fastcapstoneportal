@@ -1,0 +1,51 @@
+<app-title></app-title>
+
+<div class="container-fluid">
+
+  <div class="row contact-form">
+    <div class="col s10 m4 l6 ">
+      <div class="input-block">
+        <!-- <label for="">Name</label> -->
+        <input type="text" [(ngModel)]="searchText" placeholder="Name" class="form-control">
+      </div>
+    </div>
+    <div class="col s12 m4 l3 ">
+      <label># of Members</label>
+      <select [(ngModel)]="searchMemberNumber" class="browser-default indigo-text text-darken-4">
+        <option value="" disabled selected>Choose your option</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+    <div class="col s0 m0 l1"></div>
+    <div class="col s1 m1 l1">
+      <button type="submit" (click)="search()" class="btn-floating btn-large indigo darken-4">
+        <i class="large material-icons">search</i>
+      </button>
+    </div>
+    <div class="col s0 m0 l1"></div>
+  </div>
+
+  <hr/>
+  <div class="scrollable">
+    <div class="card-panel blue-grey item-obj lighten-4" *ngFor='let group of groupList'>
+      <div class="row item">
+        <div class="col s12 m5 l6 name-display">{{group.name}}</div>
+
+        <div class="col s12 m4 l4">
+          <!-- <div class="row item">
+            <div class="col s12 m12 l12">{{group.status}}</div>
+          </div> -->
+          <div class="row item">
+            <div class="col s12 m12 l12">Members: {{group.memberIds.length}}</div>
+          </div>
+        </div>
+        <div class="col s12 m3 l2 ">
+          <button class="btn green-accent-3 white-text " (click)="addStudentToGroup(group)"  [ngClass]='(group.status=="full" || isAvailable || groupsRequested.includes(group.id))?"btn-disable":"btn-on"' >Request</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

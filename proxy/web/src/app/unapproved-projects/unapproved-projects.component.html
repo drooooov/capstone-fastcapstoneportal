@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col s6 m6 l6">
+    <div class=" view-projects card col s12 m12 l12">
+      <h5>Projects List</h5>
+      <app-unapproved-projects-list [projectList]="studentProjects" ></app-unapproved-projects-list>
+    </div>
+
+  </div>
+  <div class="col s6 m6 l6">
+    <div class="card ">
+      <div class="card-header deep-orange accent-2">
+        <div class="card-title">
+          <div class="grey lighten-1 placeholder-title" *ngIf="displayPlaceholder"></div>
+          <div class="grey lighten-1 placeholder-subTitle" *ngIf="displayPlaceholder"></div>
+          <h5 class="flight-card-title" *ngIf="!displayPlaceholder">{{selectedProject.projectName}}</h5>
+          <p class="flight-card-date" *ngIf="!displayPlaceholder" >{{selectedProject.clientName}}</p>
+        </div>
+      </div>
+      <div class="card-content-bg">
+        <div class="card-content">
+          <div class="grey lighten-1 placeholder" *ngIf="displayPlaceholder"></div>
+          <p *ngIf="!displayPlaceholder">
+            {{selectedProject.description}}
+          </p>
+          <div class="row" >
+            <form class="col s12 blue-text text-darken-4">
+              <div class="row" *ngIf="!displayPlaceholder">
+                <div class="input-field col s12"  >
+                  <i class="material-icons prefix">comment</i>
+                  <textarea id="message3" class="materialize-textarea" ></textarea>
+                  <label for="comment">Comment</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="white-text">
+            <a class="btn  waves-effect waves-light green lighten-1" (click)="approve(selectedProject)"  >Approve</a>
+            <a class="btn  waves-effect waves-light blue darken-4" (click)="reject(selectedProject)">Disapprove</a>
+            <a class="btn-floating right waves-effect waves-light red accent-4" (click)="cancel()">
+              <i class="material-icons">clear</i>
+            </a>
+          </div>
+
+          <!-- <div class=" input-field col s12">
+              <textarea id="description" [(ngModel)]="comment" class="materialize-textarea"></textarea>
+              <label for="comment">Description</label>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,146 @@
+<!--
+  <div class="col s12 m7">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal" style="width:35%;">
+      <div class="card-image">
+        <img src="../../assets/images/download.jpg" class="circle" style="width:35px; height:40px; float:left;">
+        <span class="title" style="float:left;">Title</span>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+<div class="container-fluid whole-list" *ngIf="!displayResults">
+  <div class="row">
+      <div class="col s4 m4 l4">
+        <div class="row" *ngFor="let group of groupList">
+          <div class="col">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="../../assets/images/download.jpg" class="circle">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content" *ngIf="!show">
+                  <p>{{group.name}}</p>
+                </div>
+                <div class="card-action" *ngIf="!show">
+                  <span class="activator grey-text text-darken-4">
+                    <a>View Members</a>
+                    <i class="material-icons right" (click)="display()">more_vert</i></span>
+                  </div>
+                  <div class="card-content" *ngIf="show">
+                    <span class="card-title grey-text text-darken-4">Members<i class="material-icons right" (click)="display()">close</i></span>
+                    <p>Member 1</p>
+                    <p>Member 2</p>
+                    <p>MEmber 4</p>
+                    <p>Member 3</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s8 m8 l8">
+
+          <div class="row" *ngFor="let project of projectList; let i=index">
+            <div class="col s6 m6 l6" *ngIf="(i<=(projectList.length/2))">
+              <div class="card blue darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">{{projectList[i].projectName}}</span>
+                  <p>{{projectList[i].clientName}}</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col s6 m6 l6" *ngIf="i<(projectList.length/2)">
+                <div class="card blue darken-4">
+                  <div class="card-content white-text">
+                    <span class="card-title">{{projectList[i+11].projectName}}</span>
+                    <p>{{projectList[i+11].clientName}}</p>
+                  </div>
+                </div>
+              </div> -->
+          </div>
+        </div>
+  </div>
+
+  <button class="btn orange center-align" (click)="match()" >Match Projects</button>
+</div>
+<div class="container" *ngIf="displayResults">
+  <div class="row" *ngFor="let group of displayList">
+    <div class="col s9 m9 l9">
+      <div class="card horizontal blue darken-4">
+        <div class="card-stacked white-text">
+          <div class="card-content">
+            <h5>{{group.projectName}}</h5>
+          </div>
+          <div class="card-action white-text">
+            <h6>{{group.company}}</h6>
+            <div class="card-content group-display hoverable z-depth-3 right grey lighten-5 black-text">
+              <p>{{group.groupName}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" *ngFor="let project of projectList; let i=index">
+      <div class="col s9 m9 l9">
+        <div class="card blue darken-4">
+          <div class="card-content white-text">
+            <span class="card-title">{{project.projectName}}</span>
+            <p>{{project.clientName}}</p>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+
+<!--
+
+  <div class="container">
+  <ul class="collection" style="width:60%; margin-top:50px;">
+    <li class="collection-item avatar">
+      <div>
+        <img src="" alt="" class="circle">
+        <span class="title">Title</span>
+        <p>First Line <br>
+          Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </div>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle">folder</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar" style="margin-top:50px;">
+      <i class="material-icons circle green">insert_chart</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">play_arrow</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
+</div> -->
